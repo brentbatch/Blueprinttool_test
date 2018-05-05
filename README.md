@@ -1,4 +1,3 @@
 # Blueprinttool_test
 
-test version of blueprint tool
-duh
+open setup.exe to install program
