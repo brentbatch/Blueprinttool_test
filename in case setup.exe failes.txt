@@ -1,0 +1,5 @@
+- extract the zip somewhere in a folder
+- be sure to have .NET 4.5.2 installed to be able to run the tool
+https://www.microsoft.com/en-us/download/details.aspx?id=42637
+- open \Application Files\Advanced Blueprint Tools_1_{last version}\Advanced Blueprint Tools.exe To start the Tool
+- you can make a shortcut of \Application Files\Advanced Blueprint Tools_1_{last version}\Advanced Blueprint Tools.exe and put it on the desktop to make it easier to start
