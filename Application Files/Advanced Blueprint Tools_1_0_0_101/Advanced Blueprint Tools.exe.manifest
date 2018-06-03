@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="Advanced Blueprint Tools.exe" version="1.0.0.100" publicKeyToken="0bf8b4ecc8a9299f" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="Advanced Blueprint Tools.exe" version="1.0.0.101" publicKeyToken="0bf8b4ecc8a9299f" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="ScrapMechanic.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Advanced Blueprint Tools.exe" size="1737144">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Advanced Blueprint Tools.exe" size="1746360">
       <assemblyIdentity name="Advanced Blueprint Tools" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>C17kRanhbs24ZS1S50UnFI95rLPIC2n0pmas98LB/e4=</dsig:DigestValue>
+        <dsig:DigestValue>DZqYGjPjjYQ4ra4mlITEe9uebUN+dSDiEuizDBkNwGc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -108,7 +108,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>ozREAAFawU1Z50kgHqiVwcIeREMP4rzda30sWl/IzrU=</dsig:DigestValue>
+      <dsig:DigestValue>jOGRzPzNjCzuO7jMZZ4U/lJBpj8hIeL6X+SFwe1SAxY=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Assimp32.dll" size="3070464">
@@ -262,6 +262,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>uQkZrBvTNobtwwoeTgxuZWm/2jR7WfBwJbpYvhqOCN4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Meshes\Data\Objects\Mesh\interactive\obj_interactive_mountablespudgun_off.obj" size="270344">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>x6sFojYrAqcZ1LMUvUqO619PB0xjeen9iP6A+vfB250=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Meshes\Data\Objects\Mesh\interactive\obj_interactive_piston_off.obj" size="24180">
@@ -452,4 +461,4 @@
       <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
     </application>
   </compatibility>
-<publisherIdentity name="CN=BRENT-PC\brent" issuerKeyHash="e6b43c804758740d30b7030b9d3d4e295f4e6788" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>cqh9T2lElTgUscqJfNFjHTO/x80W/NLHYj22iSANJD0=</DigestValue></Reference></SignedInfo><SignatureValue>FMTJ7nCHklh6vFjCURnwrT/3Eb7Naj0cs8+zJkqZPpyVfYWoiTSsA+vuubaEN9ljG4bG30ZIRUgBK8axVfrf2zTN0RkgQqycB6ADukp/b92wgeraxB1fYBBE+5a4hfD9FR0dgnl+G58n7QSkwv1VT+t/Hur3BbUR9xDTfZQPnDU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>09avmF43Dnrd86PTVu7mfs1KLDay1Nm9ntbMp+7ze9Pcc/EqnCzbt9mP475Flvufhco4ncGP0nrxKCau8hO60QqO6QPvYSOoC4A43UnKv943Cs/LHx/fMMpcP/3MiKe0mPICiFL/fdA6ELd0BE5oZVjVrlyjLrEFRFEPQal3NRU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3d240d2089b63d62c7d2fc16cdc7bf331d63d17c89cab114389544694f7da872" Description="" Url=""><as:assemblyIdentity name="Advanced Blueprint Tools.exe" version="1.0.0.100" publicKeyToken="0bf8b4ecc8a9299f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BRENT-PC\brent</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>cKtglgNtolZqKLZ2nlhSlw7hZ0LYgToiyD9PaJDqXqw=</DigestValue></Reference></SignedInfo><SignatureValue>hAnqqkOf/WUdHLssqMlPQTvxWJ4VS8Q6kt69Ei6lecn65sr3kH9Yv1Qv1+RxDFvVaKbtucYqYKXFsZFfnWQHzVpKb0EPpVDXxECL37+l6cFSNAPeweBCkHFjJh+Z7Iao7iBRL9f/iNBlpvB1/68aRMD4Qg9R8Q9bb+7RpLW0JD4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>09avmF43Dnrd86PTVu7mfs1KLDay1Nm9ntbMp+7ze9Pcc/EqnCzbt9mP475Flvufhco4ncGP0nrxKCau8hO60QqO6QPvYSOoC4A43UnKv943Cs/LHx/fMMpcP/3MiKe0mPICiFL/fdA6ELd0BE5oZVjVrlyjLrEFRFEPQal3NRU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQWMVbSmuSj65P/uLx6siLCzANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAQgBSAEUATgBUAC0AUABDAFwAYgByAGUAbgB0MB4XDTE4MDIyMTAxMDgwOFoXDTE5MDIyMTA3MDgwOFowJzElMCMGA1UEAx4cAEIAUgBFAE4AVAAtAFAAQwBcAGIAcgBlAG4AdDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA09avmF43Dnrd86PTVu7mfs1KLDay1Nm9ntbMp+7ze9Pcc/EqnCzbt9mP475Flvufhco4ncGP0nrxKCau8hO60QqO6QPvYSOoC4A43UnKv943Cs/LHx/fMMpcP/3MiKe0mPICiFL/fdA6ELd0BE5oZVjVrlyjLrEFRFEPQal3NRUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQC8ol1vt9fXoOtNt8o4XccjkkTpXsl8gapDBiTyyH5d08lhjTBUccKfdaTbx5UQbqKvVALfyN7y7jfVwbL2ZloYlz69ukZTUH5s05jXtRJOhgPKgGlpWytmq3XKTvWiTci6fsOPJEOYHnAvKHiys3NFsvjA/lXW8L26WgUMtOMm4Q==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+<publisherIdentity name="CN=BRENT-PC\brent" issuerKeyHash="e6b43c804758740d30b7030b9d3d4e295f4e6788" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>qr8XTRAQSoDVr/54UnTGCw9DSUrDfCtopCN03mej1Ag=</DigestValue></Reference></SignedInfo><SignatureValue>KHrDGLr/tsen5LJB2Nk0H8IsyxS9Dsk/b90WuyfTMcRxszIAiQ05AOIKZjdLFyM2wnfZF9PAdIHlYRI+g0rfWmIZ7F4vHSoBZCPxkOrBkEkquwz4MwAeelOpEezGbXe5KcNG8jwQOTUZtNeu1lCLH4bltOjo4SRq+X1BKpwlxFk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>09avmF43Dnrd86PTVu7mfs1KLDay1Nm9ntbMp+7ze9Pcc/EqnCzbt9mP475Flvufhco4ncGP0nrxKCau8hO60QqO6QPvYSOoC4A43UnKv943Cs/LHx/fMMpcP/3MiKe0mPICiFL/fdA6ELd0BE5oZVjVrlyjLrEFRFEPQal3NRU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="08d4a367de7423a4682b7cc34a49430f0bc6745278feafd5804a10104d17bfaa" Description="" Url=""><as:assemblyIdentity name="Advanced Blueprint Tools.exe" version="1.0.0.101" publicKeyToken="0bf8b4ecc8a9299f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BRENT-PC\brent</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>QqwqkUxCfcUQDrWc9Hw+x+beUrjMEFP1C+2dW+mYEUE=</DigestValue></Reference></SignedInfo><SignatureValue>lNu6oF2V0yHqw/Ucv3d6Qr0qcxnzUj0anqgdV9J62I6GZhrbEiSo7AAJ8FbrTsR/QLNd0afGCIOfnF6o8374wSg+1cO9oO1IyRhLXCc9SB/PBYeOPbx+qdZOdPmZYMLk3OjcyElzLbJYoE01hpNPZA/YA9Q4cyiLWg2wHJociOU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>09avmF43Dnrd86PTVu7mfs1KLDay1Nm9ntbMp+7ze9Pcc/EqnCzbt9mP475Flvufhco4ncGP0nrxKCau8hO60QqO6QPvYSOoC4A43UnKv943Cs/LHx/fMMpcP/3MiKe0mPICiFL/fdA6ELd0BE5oZVjVrlyjLrEFRFEPQal3NRU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQWMVbSmuSj65P/uLx6siLCzANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAQgBSAEUATgBUAC0AUABDAFwAYgByAGUAbgB0MB4XDTE4MDIyMTAxMDgwOFoXDTE5MDIyMTA3MDgwOFowJzElMCMGA1UEAx4cAEIAUgBFAE4AVAAtAFAAQwBcAGIAcgBlAG4AdDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA09avmF43Dnrd86PTVu7mfs1KLDay1Nm9ntbMp+7ze9Pcc/EqnCzbt9mP475Flvufhco4ncGP0nrxKCau8hO60QqO6QPvYSOoC4A43UnKv943Cs/LHx/fMMpcP/3MiKe0mPICiFL/fdA6ELd0BE5oZVjVrlyjLrEFRFEPQal3NRUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQC8ol1vt9fXoOtNt8o4XccjkkTpXsl8gapDBiTyyH5d08lhjTBUccKfdaTbx5UQbqKvVALfyN7y7jfVwbL2ZloYlz69ukZTUH5s05jXtRJOhgPKgGlpWytmq3XKTvWiTci6fsOPJEOYHnAvKHiys3NFsvjA/lXW8L26WgUMtOMm4Q==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
